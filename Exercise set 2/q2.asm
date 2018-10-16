@@ -7,7 +7,7 @@ main:
 	la a0, A # load address of first array
     la a1, B # load address of second array
     addi t0, zero, 0 # i = 0
-    addi t1, zero 0 # vectA[i] = vectA[i] + vectB[i]
+    addi t1, zero, 0 # vectA[i] = vectA[i] + vectB[i]
     addi a2, zero, 5 # N = len(A)
 loop:
 	lw t2, 0(a0) # load word A[i]
